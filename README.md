@@ -30,11 +30,6 @@ Each skill has its own `README.md` with install command and setup details.
 ```
 skills/
 └── <skill-name>/
-    ├── README.md          # skill-specific install + setup
-    ├── SKILL.md           # frontmatter + main instructions
-    ├── PROCEDURE.md       # step-by-step bodies
-    ├── TROUBLESHOOTING.md # failure modes
-    ├── NOTES.md           # background, timing, guardrails
-    ├── agents/            # companion agent definitions
-    └── scripts/           # utility scripts the skill invokes
+    ├── README.md  # skill-specific install + setup
+    └── SKILL.md   # frontmatter + main instructions
 ```
