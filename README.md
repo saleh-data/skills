@@ -27,16 +27,14 @@ Each skill has its own `README.md` with install command and setup details.
 
 ## Layout
 
-Each skill is a directory under `skills/` with at minimum a `SKILL.md` (frontmatter + instructions). Larger skills split detail into sibling files (`PROCEDURE.md`, `TROUBLESHOOTING.md`, `NOTES.md`) so the always-loaded `SKILL.md` stays under ~100 lines. Skills that ship companion artifacts (agents, utility scripts) include them under `agents/` and `scripts/` subdirs.
-
 ```
 skills/
 └── <skill-name>/
-    ├── README.md         # skill-specific install + setup
-    ├── SKILL.md          # required — frontmatter + main instructions
-    ├── PROCEDURE.md      # optional — long step-by-step bodies
-    ├── TROUBLESHOOTING.md # optional — failure modes
-    ├── NOTES.md          # optional — background, timing, guardrails
-    ├── agents/           # optional — companion agent definitions
-    └── scripts/          # optional — utility scripts the skill invokes
+    ├── README.md          # skill-specific install + setup
+    ├── SKILL.md           # frontmatter + main instructions
+    ├── PROCEDURE.md       # step-by-step bodies
+    ├── TROUBLESHOOTING.md # failure modes
+    ├── NOTES.md           # background, timing, guardrails
+    ├── agents/            # companion agent definitions
+    └── scripts/           # utility scripts the skill invokes
 ```
